@@ -3,6 +3,9 @@ The simple webscraper solution to getting the most important information from a 
 
 It also outputs the to an Excel file for ease of access and customizability
 
+![GUI Screenshot](resources/screenshot_UI)
+
+
 ## Installation
 1. Clone the repository
 2. Open the exe file
