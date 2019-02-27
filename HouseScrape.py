@@ -23,16 +23,16 @@ def click(): #function to activate when button clicked
     Label(window, text=entered_url, background='#FBEAEB', foreground='#2F3C7E').grid(row=6, column=0)
 
     # Screenshoting listing
-    driver = webdriver.Chrome(executable_path='./chromedriver/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./dependencies/chromedriver/chromedriver.exe')
     driver.get(entered_url)
-    driver.save_screenshot("House.png")
+    driver.save_screenshot("./resources/House.png")
 
     # Adjusting image for compatibility with excel (replaces screnshoted image with new one, then creates a formatted version with row name)
-    old_house_pic = "House.png" 
+    old_house_pic = "./resources/House.png" 
     house_pic = Image.open(old_house_pic)
     new_house_pic = house_pic.resize((320, 193), Image.ANTIALIAS)
     formatted_house_pic = new_house_pic.convert('RGB')
-    formatted_house_pic.save("formatted_house" + str(sheet.max_row) + ".jpg")
+    formatted_house_pic.save("./resources/formatted_house" + str(sheet.max_row) + ".jpg")
     driver.quit()
     
     
@@ -98,7 +98,7 @@ def click(): #function to activate when button clicked
     lst_for_house_data = [str(theprice), str(thesqft), str(thebeds), str(thebaths), str(thephone)]
 
     # Outputs info to excel (begins with address as this skips 2 rows)
-    house_image = openpyxl.drawing.image.Image("formatted_house" + str(sheet.max_row) + ".jpg")
+    house_image = openpyxl.drawing.image.Image("./resources/formatted_house" + str(sheet.max_row) + ".jpg")
     sheet.add_image(house_image, 'A' + str(sheet.max_row + 2))
     sheet.cell(row=(sheet.max_row + 2), column=6).font = openpyxl.styles.Font(size = 18)
     sheet.cell(row=(sheet.max_row), column=6).value = finaladdress
@@ -124,8 +124,8 @@ sheet = wb.active
 window = Tk()
 window.configure(background='#FBEAEB')
 window.title("HouseScrape")
-img = Image.open("houselogo.gif")
-window.iconbitmap("home-146585_1280.ico")
+img = Image.open("./resources/houselogo.gif")
+window.iconbitmap("./resources/home-146585_1280.ico")
 img = img.resize((100,100), Image.ANTIALIAS)
 photoImg =  ImageTk.PhotoImage(img)
 Label(window, image = photoImg, background='#FBEAEB').grid (row=0, column=0, sticky=N)
