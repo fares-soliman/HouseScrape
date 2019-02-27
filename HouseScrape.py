@@ -23,7 +23,7 @@ def click(): #function to activate when button clicked
     Label(window, text=entered_url, background='#FBEAEB', foreground='#2F3C7E').grid(row=6, column=0)
 
     # Screenshoting listing
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(executable_path='./chromedriver/chromedriver.exe')
     driver.get(entered_url)
     driver.save_screenshot("House.png")
 
