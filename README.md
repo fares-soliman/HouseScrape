@@ -1,6 +1,7 @@
 # HouseScrape
 The simple webscraper solution to getting the most important information from a house listing
-It also outputs the to an Excel file for ease of access and custumizability
+
+It also outputs the to an Excel file for ease of access and customizability
 
 ## Installation
 1. Clone the repository
