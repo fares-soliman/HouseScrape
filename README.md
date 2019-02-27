@@ -9,4 +9,4 @@ It also outputs the to an Excel file for ease of access and customizability
 3. You're done!
 
 ## Quick Notes
-Must have Chrome installed on machine (webdriver uses it to take a screenshot)
+Must have Chrome installed on machine (webdriver utilizes it to take screenshots of listings)
