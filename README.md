@@ -9,6 +9,7 @@ It also outputs the to an Excel file for ease of access and customizability
 <img src='https://github.com/fares-soliman/HouseScrape/edit/master/resources/screenshot_UI.PNG' width='600'>
 </p>
 
+![Screenshot](screenshot_UI.PNG)
 
 ## Installation
 1. Clone the repository
