@@ -3,7 +3,10 @@ The simple webscraper solution to getting the most important information from a 
 
 It also outputs the to an Excel file for ease of access and customizability
 
-![GUI Screenshot](./resources/screenshot_UI)
+
+<p align='left'>
+<img src='./resources/screenshot_UI.PNG' width='200'>
+</p>
 
 
 ## Installation
