@@ -4,11 +4,11 @@ The simple webscraper solution to getting the most important information from a 
 Outputs all data to an Excel file for ease of access and customizability
 
 
-<div style = {display: 'block' float: 'left'}>
+<div style = {display: 'inline' float: 'left'}>
 <img src='./resources/screenshot_UI.PNG' width='300'>
 </div>
 
-<div align = 'right' style = {display: 'block' float: 'right'}>
+<div style = {display: 'inline' float: 'right'}>
 <img src='./resources/excel_screenshot.PNG' width='400'>
 </div>
 
