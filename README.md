@@ -4,18 +4,18 @@ The simple webscraper solution to getting the most important information from a 
 Outputs all data to an Excel file for ease of access and customizability
 
 
-<p align='left'>
-<img src='./resources/screenshot_UI.PNG' width='400'>
-</p>
+<div align='left' style = {display: 'block' float: 'left'}>
+<img src='./resources/screenshot_UI.PNG' width='300'>
+</div>
 
-<p align='right'>
+<div align='right' style = {display: 'block' float: 'right'}>
 <img src='./resources/excel_screenshot.PNG' width='400'>
-</p>
+</div>
 
 
 ## Installation
 1. Clone the repository
-2. Open the exe file
+2. Open the exe file in the 'dependencies' folder
 3. You're done!
 
 ## Quick Notes
