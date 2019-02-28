@@ -5,7 +5,7 @@ It also outputs the to an Excel file for ease of access and customizability
 
 
 <p align='left'>
-<img src='./resources/screenshot_UI.PNG' width='200'>
+<img src='./resources/screenshot_UI.PNG' width='400'>
 </p>
 
 
