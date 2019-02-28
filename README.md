@@ -8,7 +8,7 @@ Outputs all data to an Excel file for ease of access and customizability
 <img src='./resources/screenshot_UI.PNG' width='300'>
 </div>
 
-<div style = {display: 'block' float: 'right'}>
+<div alighn = 'right' style = {display: 'block' float: 'right'}>
 <img src='./resources/excel_screenshot.PNG' width='400'>
 </div>
 
