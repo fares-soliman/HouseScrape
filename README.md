@@ -3,6 +3,8 @@ The simple webscraper solution to getting the most important information from a 
 
 It also outputs the to an Excel file for ease of access and customizability
 
+![Screenshot of UI](https://github.com/fares-soliman/HouseScrape/edit/master/resources/screenshot_UI.PNG)
+
 
 ## Installation
 1. Clone the repository
